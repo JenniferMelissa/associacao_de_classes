@@ -46,7 +46,7 @@ class Aluno:
         lista = []
         for curso in self.cursos_inscritos:
             lista.append(curso.nome)
-            return lista
+        return lista
 
 
 class Curso:
